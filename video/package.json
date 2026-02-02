@@ -1,0 +1,20 @@
+{
+  "name": "glass-wallet-video",
+  "version": "1.0.0",
+  "description": "Glass Wallet presentation video",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render GlassWalletVideo out/video.mp4",
+    "render": "remotion render GlassWalletVideo out/video.mp4"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.416",
+    "@remotion/cli": "^4.0.416",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.416",
+    "typescript": "^5.9.3"
+  }
+}

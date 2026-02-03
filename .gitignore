@@ -1,1 +1,3 @@
 .vercel
+.env*.local
+assets/video/presentation-full.mp4

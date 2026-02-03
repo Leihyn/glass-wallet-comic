@@ -91,7 +91,7 @@ const PAGES = [
     narrator: "Privacy is a human right. Not a criminal trait. Trade privately on Solana. Full Jupiter liquidity. Zero exposure.",
   },
   {
-    image: "pages/page-12.jpg",
+    image: "pages/page-12.png",
     title: "The End",
     subtitle: "Privacy isn't hiding. It's choosing.",
     keywords: ["choosing"],

@@ -4,12 +4,15 @@
   "description": "Glass Wallet presentation video",
   "scripts": {
     "start": "remotion studio",
-    "build": "remotion render GlassWalletVideo out/video.mp4",
-    "render": "remotion render GlassWalletVideo out/video.mp4"
+    "build": "npm run build:full && npm run build:short && npm run build:vertical",
+    "build:full": "remotion render GlassWalletVideo out/presentation-full.mp4",
+    "build:short": "remotion render GlassWalletShort out/presentation-short.mp4",
+    "build:vertical": "remotion render GlassWalletVertical out/presentation-vertical.mp4"
   },
   "dependencies": {
     "@remotion/bundler": "^4.0.416",
     "@remotion/cli": "^4.0.416",
+    "@remotion/media-utils": "^4.0.417",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
     "react": "^19.2.4",
